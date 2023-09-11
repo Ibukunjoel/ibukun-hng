@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: #FFE53B; */
+    background: linear-gradient(115deg, #FCCD3D 0%, #FB3838 55.24%);
+    min-height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hng-internship {
+    position: absolute;
+    display: inline-flex;
+    padding: 47px 40px 46.987px 0px;
+    align-items: center;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #0A111A 0%, #33455B 100%);
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    /* gap: 35px; */
+}
+
+.display-picture {
+    position: relative;
+    left: -50px;
+}
+
+.slack-name {
+    color: #73B999;
+    /* font-family: Inter; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.track {
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.day-time {
+    display: inline-flex;
+    gap: 24px;
+}
+
+.week-day,
+.time {
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.day-time {
+    margin-top: 15px;
+}
+
+
+.day-time-sub {
+    color: #797979;
+}
+
+.github-link {
+    color: #FFF;
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.link {
+    color: #FFF;
+    /* font-family: Inter; */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+#clock {
+    color: #f2f2f2;
+    position: relative;
+    bottom: -180px;
+}
+
+
+@media (max-width: 907px) {
+    .hng-internship {
+        display: flex;
+        width: 407px;
+        padding: 40px 60px 20px 60px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        /* flex-direction: column; */
+        /* align-items: center; */
+        gap: 26px;
+        text-align: center;
+    }
+
+    .display-picture {
+        display: flex;
+        align-items: center;
+        position: initial;
+        top: 50px;
+    }
+
+    .slack-name {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .track {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .week-day,
+    .time {
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .link,
+    .github-link {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #clock{
+    position: initial;
+    }
+}
